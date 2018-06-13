@@ -2,6 +2,7 @@ class App < Sinatra::Base
 
   def name
     name = Joe
+    return name
   end
 
 	get '/' do
