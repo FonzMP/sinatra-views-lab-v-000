@@ -6,6 +6,6 @@
   </head>
   <body>
     <% d = DateTime.now %>
-    <h1>The date is <%= DateTime.now.httpdate %></h1>
+    <h1>The date is <%= d.strftime(%m) %></h1>
   </body>
 </html>
