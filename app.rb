@@ -1,6 +1,8 @@
 class App < Sinatra::Base
 
-  name = Joe
+  def name
+    name = Joe
+  end
 
 	get '/' do
 		erb :index
